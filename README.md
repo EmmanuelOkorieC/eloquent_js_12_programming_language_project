@@ -1,5 +1,5 @@
 # Eloquent Javascript, 3rd Edition: A modern Introduction to programming
-An overview, with solutions and explanation of exercises in chapter Twelve of the ebook Eloquent Javascript, 3rd Edition by Marijn Haverbeke
+An overview, with solutions and explanation of exercises in chapter Twelve of the ebook [Eloquent Javascript, 3rd Edition](https://eloquentjavascript.net/Eloquent_JavaScript.pdf) by Marijn Haverbeke
 
 ## Overview
 ### Chapter Twelve:  Project: A programming Language 
@@ -386,7 +386,7 @@ print(pow(2, 10)))
 ```
 ## Exercises
 ### Chapter Twelve: Project: A programming Language
-* 12.1 Arrays
+* 12.1 [Arrays](https://github.com/EmmanuelOkorieC/eloquent_js_12_programming_language_project/blob/main/chapter%2012%20exercises/arrays.js)
 
 For this exercise, I was tasked to add support for arrays to Egg. By adding the following three functions to the top scope. `array(...values)` to construct an array containing the argument values, `length(array)` to get an array’s length, and `element(array, n)` to fetch the nth element from an array.
 
@@ -433,7 +433,7 @@ Like i pointed out in my overview, it is made possible because every function ge
 
 So the function **f** gets access to the outer scope object and stores it's own local bindings and parameters (in this case **a**) in the new object (`localScope`). **a** cannot be referenced outside the function scope because practically it wouldn't exist outside the function. Same goes to the function that **f** returns. It's new scope object gets access to **f** function's scope object (whose prototype is the outer scope object) and stores it's own local bindings and parameters (in this case **b**) that can not be referenced outside of it's function scope.
 
-* 12.3 Comments
+* 12.3 [Comments](https://github.com/EmmanuelOkorieC/eloquent_js_12_programming_language_project/blob/main/chapter%2012%20exercises/comments.js)
 
 For this exercise, I was tasked to make Egg allow comments. For example, whenever it finds a hash sign (**#**), it could treat the rest of the line as a comment and ignore it, similar to `//` in JavaScript. The Author pointed out that it could be achieved by modifying the `skipSpace` function to skip comments as if they are whitespace so that all the points where skipSpace is called will now also skip comments.
 
@@ -470,7 +470,7 @@ function skipSpace(string) {
 ```
 This worked too!!
 
-* 12.4 Fixing Scope
+* 12.4 [Fixing Scope](https://github.com/EmmanuelOkorieC/eloquent_js_12_programming_language_project/blob/main/chapter%2012%20exercises/fixingScope.js)
 
 Currently, the only way to assign a binding a value is **define**. This construct acts as a way both to define new bindings and to give existing ones a new value.
 
