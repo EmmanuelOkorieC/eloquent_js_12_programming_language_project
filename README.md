@@ -12,7 +12,7 @@ Like every other programming language, Egg is going to have it's own syntax or n
 
 Our language will have a simple and uniform syntax. Everything in Egg is an expression. An expression can be the name of a binding, a number, a string or an application. **Applications** are used for function calls and for constructs like `if` or `while`. A **String** is a sequence of characters that are not double quotes, wrapped in double quotes. A **Number** is a sequence of digits.  **Binding Names** can consist of any character that is not whitespace and that does not have a special meaning in the syntax. 
 
-Binding names that have a special meaning in syntax include "**if**", "**while**", "**define**", "**do**", "**print**". Operators like "**+**", "**-**", "**/**", "*", "**==**", "**>**", "**<**" are also referenced as binding names. To use these binding names in Egg, they have to invoked as functions (applications)
+Binding names that have a special meaning in syntax include "**if**", "**while**", "**define**", "**do**", "**print**". Operators like "**+**", "**-**", "**/**", "*", "**==**", "**>**", "**<**" are also referenced as binding names. To use these binding names in Egg, they have to be invoked as functions (applications)
 
 Applications are written the way they are in Javascript, by putting parentheses after an expression and having any number of arguments between those parentheses separated by commas.
 ```javascript
